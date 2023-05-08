@@ -5,7 +5,6 @@ const form = document.querySelector('.form');
 const inputSearch = document.querySelector('.input__search');
 const buttonPrev = document.querySelector('.btn-prev');
 const buttonNext = document.querySelector('.btn-next');
-
 let searchPokemon = 1;
 
 const fetchPokemon = async (pokemon) => {
